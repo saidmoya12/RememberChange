@@ -39,8 +39,26 @@ public class MainActivity extends AppCompatActivity {
 
 	}
 
-	public void onChartBtn(View v){
+	public void onAboutBtn(View v){
 		ttsManager.initQueue("Does the flap of a butterfly’s wings in Brazil set off a tornado in Texas?");
+		Intent myIntent = new Intent(this, AboutActivity.class);
+		startActivity(myIntent);
+	}
+
+	public void atHomeBtn(View v){
+		ttsManager.initQueue("You can help to Fight against climate change!");
+		Intent myIntent = new Intent(this, AtHomeActivity.class);
+		startActivity(myIntent);
+	}
+
+	public void onHarmBtn(View v){
+		ttsManager.initQueue("Do you know about harm chain?");
+		Intent myIntent = new Intent(this, HarmActivity.class);
+		startActivity(myIntent);
+	}
+
+	public void onChartBtn(View v){
+		ttsManager.initQueue("Learn some tips that could help you");
 		Intent myIntent = new Intent(this, Chart.class);
 		startActivity(myIntent);
 	}

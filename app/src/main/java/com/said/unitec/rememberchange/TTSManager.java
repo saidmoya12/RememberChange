@@ -20,7 +20,7 @@ public class TTSManager {
 		try {
 			mTts = new TextToSpeech(context, onInitListener);
 			mTts.setPitch((float) 0.8);
-			mTts.setSpeechRate((float) 0.8);
+			mTts.setSpeechRate((float) 0.9);
 
 		} catch (Exception e) {
 			e.printStackTrace();

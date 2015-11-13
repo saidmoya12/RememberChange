@@ -17,6 +17,12 @@
         </activity>
         <activity android:name=".Chart" >
         </activity>
+        <activity android:name=".AtHomeActivity" >
+        </activity>
+        <activity android:name=".AboutActivity" >
+        </activity>
+        <activity android:name=".HarmActivity" >
+        </activity>
     </application>
 
 </manifest>
